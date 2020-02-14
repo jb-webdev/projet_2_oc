@@ -8,7 +8,7 @@ body {                                                               /* MISE EN 
     
 }
                                                                     /* COLONNE DE GAUCHE */
-#aside {
+aside {
     width: 100%;
     max-width: 300px;
     background-color: #2196f3;
@@ -39,7 +39,7 @@ body {                                                               /* MISE EN 
     color: #2196f3;
     font-size: 1.5em ;
 }
-.contact div {
+.contact p {
     line-height: 1em;
     margin-left: 10%;
     margin-right: 10%;
@@ -66,15 +66,15 @@ body {                                                               /* MISE EN 
 header span {            /* couleur du prenom titre*/
     color: #2196f3;
 }
-.header {
+header {
     line-height: 1em;
     margin-top: 5em;
     margin-bottom: 5em;
 }
-.header h1 {
+header h1 {
     font-size: 2.5em; 
 }
-.header h2 {
+header h2 {
     font-size: 2em;
 }
 
@@ -95,16 +95,16 @@ span {                      /* font awesome */
     font-size: 0.6em;
 }
 /*       Mise en page SECTION     */
-.section article {
+section article {
     display: flex;  
 }
-.footer {
+.recommandation {
     align-self: baseline;
 }
-.footer article {           /* FLEX BLOCS FOOTER*/
+.recommandation article {           /* FLEX BLOCS FOOTER*/
     display: flex;
 }
-.footer div {
+.recommandation div {
     width: 50%;  /* LARGEUR DIV RECOMMANDATION*/
 }
 .date {
@@ -131,7 +131,7 @@ em {
         flex-direction: column-reverse;
     }
                                             /*colonne de droite*/
-    #aside {
+    aside {
         width: 100%;
         max-width: 100%;
     }
