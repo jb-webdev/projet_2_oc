@@ -144,9 +144,9 @@ em {
     }
                                             /* colonne de gauche*/
     #container {
-        font-size: 0.8em;
-        margin-left: 5%;
-        margin-right: 5%;
+        font-size: 1em;
+        margin-left: auto;
+        margin-right: auto;
     }
     .footer h3 {
         width: 100%;
@@ -155,6 +155,8 @@ em {
 @media all and (max-width: 530px){
     #container {
         font-size: 0.7em;
+        margin-right: auto;
+        margin-left: auto;
     }
 
 }
