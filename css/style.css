@@ -23,6 +23,9 @@ aside {
 .photo {
     align-self: center;
 }
+.a_propos{
+    height: 50%;
+}
 .a_propos h2 {                 /* couleur titre colonne de droite*/
     background-color: #363636;
     text-align: center;
@@ -35,7 +38,7 @@ aside {
     text-align: justify;
 }
 .activite {
-    
+    padding-bottom: 0;
 }
 .activite h2 {                 /* couleur titre colonne de droite*/
     background-color: #363636;
