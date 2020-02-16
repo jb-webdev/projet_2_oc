@@ -23,13 +23,27 @@ aside {
 .photo {
     align-self: center;
 }
-.items h2 {                 /* couleur titre colonne de droite*/
+.a_propos h2 {                 /* couleur titre colonne de droite*/
     background-color: #363636;
     text-align: center;
     color: #2196f3;
     font-size: 1.5em ;
 }
-.items div {
+.a_propos div {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+}
+.activite {
+    
+}
+.activite h2 {                 /* couleur titre colonne de droite*/
+    background-color: #363636;
+    text-align: center;
+    color: #2196f3;
+    font-size: 1.5em ;
+}
+.activite div {
     margin-left: 10%;
     margin-right: 10%;
     text-align: justify;
@@ -48,6 +62,7 @@ aside {
 .loisirs {                 /* FLEX BOXE FONT AWESOME LOISIRS*/
     display: flex;
     padding-bottom: 10%;
+    justify-content: center;
 }
 
 .loisirs span {             /* font awesome */
@@ -55,6 +70,9 @@ aside {
     justify-content: space-around;
     margin: auto;
     color: #363636;  
+}
+.description {
+    height: auto;
 }
 
                                                         /* COLONNE DE DROITE */
@@ -99,9 +117,6 @@ span {                      /* font awesome */
 section article {
     display: flex;  
 }
-.recommandation {
-    align-self: baseline;
-}
 .recommandation article {           /* FLEX BLOCS FOOTER*/
     display: flex;
 }
@@ -145,8 +160,7 @@ em {
                                             /* colonne de gauche*/
     #container {
         font-size: 1em;
-        margin-left: auto;
-        margin-right: auto;
+        justify-content: center;
     }
     .footer h3 {
         width: 100%;
@@ -155,8 +169,6 @@ em {
 @media all and (max-width: 530px){
     #container {
         font-size: 0.7em;
-        margin-right: auto;
-        margin-left: auto;
     }
 
 }
