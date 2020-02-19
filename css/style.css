@@ -127,6 +127,9 @@ span {                      /* font awesome */
 section article {
     display: flex;  
 }
+.recommandation .main {
+    width: 100%;
+}
 .recommandation article {           /* FLEX BLOCS FOOTER*/
     display: flex;
 }
@@ -191,9 +194,7 @@ em {
     .footer h3 {
         width: 100%;
     }
-    .recommandation .main {
-        width: 100%;
-    }
+    
     .recommandation article {
         padding-left: 7%;
         padding-right: 7%;
