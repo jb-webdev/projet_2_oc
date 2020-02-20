@@ -1,207 +1,173 @@
-/* MISE EN PAGE DU BODY*/
-body {                                                   
-    display: flex;
-    width: 100%;
-    max-width: 1000px;
-    height: auto;
+body {
+    font-family: 'roboto slab', serif;
+
     margin-left: auto;
     margin-right: auto;
-    font-family: 'Roboto Slab', serif;
-    
+
+    width: 100%;
+    max-width: 1000px;
+
+    display: flex;
 }
+
 /* COLONNE DE GAUCHE */
 aside {
-    width: 100%;
-    max-width: 300px;
-    background-color: #2196f3;
     padding-top: 3%;
+
+    width: auto;
+    max-width: 30%;
+
     display: flex;
     flex-direction: column;
-}
-.photo img {
-    border-radius: 110%;
+
+    background-color: #2196f3;
 }
 .photo {
     align-self: center;
 }
-.a_propos{
-    height: 50%;
+.photo img {
+    border-radius: 110%;
 }
-.a_propos h2 {      /* couleur titre colonne de droite*/ 
+aside h2 {
     background-color: #363636;
+
     text-align: center;
     color: #2196f3;
-    font-size: 1.5em ;
-}
-.a_propos div {     /*alignement des blocs*/
-    margin-left: 10%;
-    margin-right: 10%;
-    text-align: justify; /* alignement text des div */
-}
-.activite {
-    padding-bottom: 0;
-}
-.activite h2 {       /* couleur titre colonne de droite */
-    background-color: #363636;  /* couleur de fond du titre loisir */
-    text-align: center; /* alignement du texte au centre */
-    color: #2196f3;  /* couleur du titre */
-    font-size: 1.5em ;  /* taille du titre */
-}
-.activite div {
-    margin-left: 10%;   
-    margin-right: 10%;
-    text-align: justify;
-}
-.contact h2 {       /* couleur titre colonne de droite */
-    background-color: #363636;      /* couleur de fond du titre loisir */
-    text-align: center;         /* alignement du texte au centre */
-    color: #2196f3;         /* couleur du titre */
-    font-size: 1.5em ;      /* taille du titre */
+    font-size: 1.5em;
 }
 .contact p {
-    line-height: 1em;       /* hauteur espacement des lignes */
-    margin-left: 10%;       /* marge de gauche */
-    margin-right: 10%;      /* marge de droite */
-}
-.loisirs {                 /* FLEX BOXE FONT AWESOME LOISIRS*/
-    display: flex;      /* commande flex du bloc */
-    padding-bottom: 10%;  /* marge interieur du bas du bloc */
-    justify-content: center;  /* alignement du bloc au cntre*/
-}
+    line-height: 1em;
 
-.loisirs span {             /* font awesome */
-    font-size: 1.8em;       /* taille des fonts awesome */
-    justify-content: space-around;  /* espacement des blocs avec flexbox */
-    margin: auto;       /* marge auto des blocs */
-    color: #363636;  /* couleur des fonts awesome */
+    margin-left: 10%;
+    margin-right: 10%;
 }
-.description {
-    height: auto;  /* hauteur du bloc a propos auto */
+.a_propos {
+    height: 70%;
 }
-.description p {    /* alignement des bloc paragraphe a propos */
-    text-align: initial;
+.a_propos div {
+    margin-right: 10%;
+    margin-left: 10%;
+
+    text-align: justify;
+}
+.activite{
+    margin-bottom: 1%;
+}
+.activite div {
+    margin: auto;
+
+    text-align: justify;
+    color: #363636;
+    font-size: 1.8rem;
+}
+.loisirs {
+    display: flex;
+    justify-content: center;
+
+    padding-bottom: 5%;
 }
 
 /* COLONNE DE DROITE */
+
 #container {
-    width: 100%;            /* largeur du conteneur */
-    max-width: 700px;       /* largeur max du conteneur */
-    margin-left: 5%;        /* mare de gauche du conteneur */
-    padding-top: 3%;        /* marge interieur en haut du conteneur */
+    width: auto;
+    max-width: 70%;
+
+    padding-top: 3%;
+    margin-left: 5%;
 }
-header span {            /* couleur du prenom titre*/
-    color: #2196f3;
-}
-header {            
-    line-height: 1em;  /* espacement entre les ligne */
-    margin-top: 5em;        /* marge en heut du bloc */
-    margin-bottom: 5em;     /* marge exteieur du bloc */
+header {
+    line-height: 1em;
+
+    margin-top: 5em;
+    margin-bottom: 5em;
 }
 header h1 {
-    font-size: 2.5em;           /* taille de la police du titre principal */ 
+    font-size: 2.5em;
+}
+.prenom {
+    color: #2196f3;
 }
 header h2 {
-    font-size: 2em;         /* taille du titre secondaire */
-}
-article {
-    width: auto;            /* Largeur du bloc article */
+    font-size: 2em;
 }
 #container h3 {
-    font-size: 1.5em;       /* teille des titre de troisième niveau du bloc container */
-    border-bottom: 3px solid #2196f3;  /* ligne basse du bloc */
-    margin-right: 5%;           /* marge de droite du titre h3 */
-}
+    font-size: 1.5em;
+    border-bottom: 3px solid #2196f3;
 
-/* MISE EN PAGE FONT AWESOME*/
-span {                      /* font awesome */
+    margin-right: 5%; /*a voir si il faut pas l'enlever en fin de codage*/
+}
+h3 span {
     color: #2196f3;
     margin-right: 1em;
 }
-.fa-bullseye {              /* font awesome */
-    font-size: 0.8;         /* Taille du font awesome */
+.fa-bullseye {
+    font-size: 0.8em;
 }
-.fa-circle {                /* font awesome */
-    font-size: 0.6em;       /* Taille du font awesome */
+.fa-circle {
+    font-size: 0.6em;
 }
-/*       Mise en page SECTION     */
-section article {
-    display: flex;  
+.icon {
+    color: #2196f3;
+    padding-right: 0.5em;
 }
-.recommandation .main {
-    width: 100%;
-}
-.recommandation article {           /* FLEX BLOCS FOOTER*/
+article {
     display: flex;
+    width: auto;
 }
-.recommandation div {
-    width: 50%;  /* LARGEUR DIV RECOMMANDATION*/
+.formation p, h4 {
+    margin-top: 0em;
+}
+h4 {
+    margin-bottom: 0em;
+}
+.partie p, h4 {
+    margin-top: 0em;
 }
 .date {
-    display: flex;
-    align-items: center;    /* alignement tflex box des blocs */
-    width: 30%;             /* largeur des blocs date */
-    max-width: auto;    /* Largeur des blocs maximum*/
+    width: 30%;
+    max-width: auto;
+}
+.date em {
+    font-weight: bold;
 }
 .text {
-    width: 70%;         /* largeur du blocs text */
-    max-width: auto;   /* largeur maximal du bloc text*/
+    width: 70%;
+    max-width: auto;
 }
-em {
-    font-weight: bold;   /* mise en gras des titre */
+.recommandation article div {
+    width: 50%;
+    padding-left: 1.3em;
 }
-/*media queries pour resposive*/
-@media all and (min-width: 850px){
-    .photo_header {
-        display: none;  /* disparition de la photo dans les petits écrans*/
-    }
-}
-@media all and (max-width: 850px){
+        /* RESPONSIVE */
+@media all and (max-width: 780px) {
     body {
-        margin: 0;
-        padding: 0;
-        flex-direction: column-reverse;  /* mise ne place de la colonne de gauche en bas */
-        width: 100%;
+        margin: 0em;
+        flex-direction: column-reverse;
     }
-    aside {
-        width: auto;
-        max-width: 900px;
+    header h1, h2 {
+        text-align: center;
     }
     .photo {
         display: none;
     }
-    header h1 {
-        margin-left: auto; 
-        margin-right: 0;
+    #container {
+        max-width: 100%;
     }
-    header h2 {
-        margin-left: auto; 
-        margin-right: 0;
-    }
-    .contact div {
-        text-align: center;
-    }
-      /* colonne de gauche*/
-      #container {
-        font-size: 1em;
-        justify-content: center;
-        margin: 0;
-        padding-left: 3%;
-    }
-    section {
-        padding-left: 7%;
-        padding-right: 7%;
-    }
-    .footer h3 {
-        width: 100%;
-    }
-    
-    .recommandation article {
-        padding-left: 7%;
-        padding-right: 7%;
+    aside {
+        max-width: 100%;
     }
 }
 @media all and (max-width: 530px){
+    header h1,h2 {
+        font-size: 2.5rem;
+    }
+}
+@media all and (max-width: 500px){
     #container {
-        font-size: 0.7em;
+        font-size: 0.7rem;
+    }
+    header h1,h2 {
+        font-size: 1.5rem;
     }
 }
