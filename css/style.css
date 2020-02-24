@@ -96,7 +96,7 @@ header h2 {
     font-size: 1.5em;
     border-bottom: 3px solid #2196f3;
 
-    margin-right: 5%; /*a voir si il faut pas l'enlever en fin de codage*/
+    margin-right: 5%; 
 }
 h3 span {
     color: #2196f3;
